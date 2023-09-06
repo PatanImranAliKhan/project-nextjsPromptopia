@@ -20,9 +20,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Nav.jsx", "app/layout.jsx", "components/Provider.jsx", "app/api/auth/[...nextauth]/route.js", "app/page.jsx", "components/Feed.jsx", "components/Form.jsx", "components/PromptCard.jsx", "components/Profile.jsx"],
   "exclude": ["node_modules"]
 }
